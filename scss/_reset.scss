@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+    color: #FFFFFF;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Mohave', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+html{
+    background-color: #060608;
+    font-size: 62.5%;
+}
+
+.container{
+    width: 100%;
+    max-width: 124.6rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}

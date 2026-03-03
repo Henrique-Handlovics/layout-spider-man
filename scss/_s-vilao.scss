@@ -1,0 +1,87 @@
+.s-vilao{
+    width: 100%;
+    height: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    animation: changeBG 10s infinite linear;
+    position: relative;
+
+    
+    &:before{
+        content: "";
+        width: 100%;
+        height: 21.6rem;
+        background: linear-gradient(180deg, #060608 0%, rgba(0, 4, 7, 0.00) 100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    &:after{
+        content: "";
+        width: 100%;
+        height: 21.6rem;
+        background: linear-gradient(180deg, #060608 0%, rgba(0, 4, 7, 0.00) 100%);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        transform: rotate(180deg);
+    }
+
+    h2{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 4.8rem;
+        margin-bottom: 0.8rem;
+        text-align: center;
+    }
+
+    p{
+        font-size: 1.8rem;
+        line-height: 150%;
+        text-align: center;
+        color: #CECED9;
+        margin-bottom: 7.2rem;
+    }
+}
+
+@keyframes changeBG {
+    0%{
+        background-image: url(../assets-spider-man-2/bg/09.jpg);
+    }
+    10%{
+        background-image: url(../assets-spider-man-2/bg/01.png);
+    }
+    20%{
+        background-image: url(../assets-spider-man-2/bg/02.png);
+    }
+    30%{
+        background-image: url(../assets-spider-man-2/bg/03.png);
+    }
+    40%{
+        background-image: url(../assets-spider-man-2/bg/04.png);
+    }
+    50%{
+        background-image: url(../assets-spider-man-2/bg/05.png);
+    }
+    70%{
+        background-image: url(../assets-spider-man-2/bg/06.png);
+    }
+    80%{
+        background-image: url(../assets-spider-man-2/bg/07.png);
+    }
+    90%{
+        background-image: url(../assets-spider-man-2/bg/08.png);
+    }
+    100%{
+        background-image: url(../assets-spider-man-2/bg/09.jpg);
+    }
+    
+}

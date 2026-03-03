@@ -1,0 +1,152 @@
+@media(max-width: 1200px){
+  .s-hero{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    height: auto;
+  }
+
+  .s-videos{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+    .btn{
+        display: none;
+    }
+  }
+
+  .s-vilao{
+    height: 55rem;
+  }
+
+  footer{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media(max-width: 991px){
+    header{
+        nav{
+            display: none;
+        }
+    }
+
+    .s-hero{
+        .left{
+            max-width: 100%;
+        }
+
+
+        .right{
+            display: none;
+        }
+    }
+
+    .s-vilao{
+        &:before{
+            height: 10rem;
+        }
+        &:after{
+            height: 10rem;
+        }
+    }
+
+    footer{
+        .container{
+            flex-direction: column;
+            align-items: center;
+            gap: 4rem;
+        }
+
+        .left{
+            text-align: center;
+        }
+    }
+}
+
+@media(max-width: 560px){
+    header{
+        .logo{
+            max-width: 12.6rem;
+        }
+
+        buttom{
+            padding: 0.5rem 2rem;
+        }
+    }
+
+    .s-hero{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        background-size: 112rem;
+        background-position-x: 62%;
+
+        .left{
+            h1{
+                line-height: 120%;
+                font-size: 4.2rem;
+                max-width: 84%;
+            }
+
+            .description{
+                font-size: 1.6rem;
+                margin-bottom: 3rem;
+            }
+
+            .value{
+                margin-bottom: 4rem;
+
+               h3{
+                    margin-bottom: 1rem;
+                }
+            }
+
+            ul{
+                gap: 1rem;
+
+                &:nth-child(2){
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+                
+                p{
+                    font-size: 1.4rem;
+                }
+
+                li{
+                    gap: 1rem;
+                }
+            }
+        }
+    }
+
+    .s-videos{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .s-vilao{
+        height: auto;
+        padding:  6rem 0;
+        background-size: 90rem;
+
+        h2{
+            font-size: 3.6rem;
+        }
+
+        p{
+            max-width: 30rem;
+            margin-bottom: 4rem;
+            font-size: 1.6rem;
+        }
+    }
+
+    footer{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+
+        &:before{
+            background-size: 120%;
+        }
+    }
+}
